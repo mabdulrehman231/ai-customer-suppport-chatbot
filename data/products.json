@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Gaming Laptop Pro",
+        "category": "Laptop",
+        "keywords": ["laptop", "gaming", "computer", "pc"],
+        "price": 1200,
+        "description": "RTX 4060, 16GB RAM, 1TB SSD, perfect for gaming."
+    },
+    {
+        "id": 2,
+        "name": "Business Laptop",
+        "category": "Laptop",
+        "keywords": ["laptop", "office", "business", "computer"],
+        "price": 850,
+        "description": "Lightweight, long battery life, ideal for office work."
+    },
+    {
+        "id": 3,
+        "name": "Wireless Headphones",
+        "category": "Headphones",
+        "keywords": ["headphone", "headphones", "earbuds", "audio", "wireless"],
+        "price": 150,
+        "description": "Noise cancelling, Bluetooth 5.3."
+    },
+    {
+        "id": 4,
+        "name": "Android Smartphone",
+        "category": "Phone",
+        "keywords": ["phone", "mobile", "smartphone", "android"],
+        "price": 700,
+        "description": "AMOLED display, 256GB storage."
+    }
+]

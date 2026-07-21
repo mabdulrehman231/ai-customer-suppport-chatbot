@@ -1,0 +1,23 @@
+
+[
+    {
+        "type": "damaged",
+        "response": "I'm sorry your product arrived damaged. Please provide your Order Number, Product Name, and a picture if available."
+    },
+    {
+        "type": "refund",
+        "response": "I'd be happy to help with your refund request. Please share your Order Number and reason for the refund."
+    },
+    {
+        "type": "late delivery",
+        "response": "I'm sorry your order is delayed. Please provide your Order Number so I can check the shipping status."
+    },
+    {
+        "type": "wrong item",
+        "response": "I apologize that you received the wrong item. Please provide your Order Number and the product you received."
+    },
+    {
+        "type": "payment",
+        "response": "I'm sorry you're having payment issues. Please describe the problem and tell us which payment method you used."
+    }
+]

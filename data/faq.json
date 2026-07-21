@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is your refund policy?",
+        "answer": "Customers can request a refund within 30 days of purchase."
+    },
+    {
+        "question": "How long does shipping take?",
+        "answer": "Shipping usually takes 3 to 5 business days."
+    },
+    {
+        "question": "Do you provide warranty?",
+        "answer": "Yes. All products include a 1-year warranty."
+    },
+    {
+        "question": "What payment methods are accepted?",
+        "answer": "We accept Visa, Mastercard, PayPal, and bank transfer."
+    },
+    {
+        "question": "How can I contact customer support?",
+        "answer": "You can contact us via email, phone, or live chat."
+    }
+]

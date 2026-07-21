@@ -1,0 +1,3 @@
+from utils.vector_store import create_vector_database
+
+create_vector_database()
