@@ -1,23 +1,14 @@
-import os
-from langchain_community.document_loaders import (
-    PyPDFLoader,
-    TextLoader
-)
+from langchain_core.documents import Document
 
-DOCS_PATH = "docs"
 
 def load_documents():
-    documents = []
 
-    for filename in os.listdir(DOCS_PATH):
-        filepath = os.path.join(DOCS_PATH, filename)
+    with open(
+        "docs/comapny_policy.txt",
+        "r",
+        encoding="utf-8"
+    ) as f:
 
-        if filename.endswith(".pdf"):
-            loader = PyPDFLoader(filepath)
-            documents.extend(loader.load())
+        text = f.read()
 
-        elif filename.endswith(".txt"):
-            loader = TextLoader(filepath, encoding="utf-8")
-            documents.extend(loader.load())
-
-    return documents
+    return [Document(page_content=text)]
