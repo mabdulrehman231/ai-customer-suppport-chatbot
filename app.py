@@ -42,6 +42,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 create_tables()
+
+import os
+from utils.vector_store import create_vector_database
+
+if not os.path.exists("database/chroma_db"):
+    create_vector_database()
 st.sidebar.title("ABC Electronics")
 st.sidebar.caption("AI Customer Support")
 st.sidebar.divider()
